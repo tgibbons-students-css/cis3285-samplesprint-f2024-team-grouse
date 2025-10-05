@@ -33,6 +33,9 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            // Changes for Sprint # -- User Story -- Developer's Name
+            // Changes Sprint 2, US-2D-1 -- As a system admin, I want to be able to set a limit to the number of users in any one room. -- Zach Major
+
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -56,6 +59,9 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            // Changes for Sprint # -- User Story -- Developer's Name
+            // Changes Sprint 2, US-2D-1 -- As a system admin, I want to be able to set a limit to the number of users in any one room. -- Zach Major
+
             try
             {
                 return RedirectToAction(nameof(Index));
